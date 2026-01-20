@@ -138,7 +138,7 @@ int LR14(double* array, int size) {
     printf("\n3. Обработка массива...\n");
 
 
-    double* processed_array = max_elements(filled_array, size);
+    double* processed_array = calc_elements(filled_array, size);
 
     printf("\n4. Вывод обработанного массива:\n");
     put_elements(processed_array, size);
