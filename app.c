@@ -40,9 +40,9 @@ int main() {
 
     // Выполнение лабораторных работ
     LR11();
-    task14(array, size);
-    task16();
-    task19();
+    LR14(array, size);
+    LR16();
+    LR19();
 
     free(array);
     printf("\nВсе работы выполнены успешно!\n");
